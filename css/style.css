@@ -14,7 +14,7 @@
 .background-main{
     background-color: black;
     width: 100%;
-    height: calc(100vh - 80px);
+    height: calc(100vh - 60px);
 }
 
 .main-top{
@@ -43,7 +43,7 @@
     margin: 0 auto;
 }
 
-.my-row{
+main .my-row{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -68,4 +68,62 @@
     position:absolute;
     bottom: 0;
     left: 0; 
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #222222;
+    color: white;
+    height: 60px;
+}
+
+footer .my-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col-footer{
+    display: flex;
+    align-items: center;
+}
+
+
+footer .col-footer div{
+    text-align: center;
+    padding: 0 10px;
+}
+
+footer .col-footer i{
+    font-size: 20px;
+}
+
+footer .col-footer .chevron *{
+    font-size: 10px;
+}
+
+.my-rows .col-1{
+    width: 15%;
+
+}
+
+.my-rows .col-2{
+    width: 70%;
+    justify-content: space-between;
+}
+
+.col-3{
+    color: red;
+    font-weight: bold;
+    background-color: #4A4A4A;
+    padding: 20px;
+}
+
+#video, #mic{
+    margin-right: 0;
+}
+
+#share-screen{
+    color: green;
 }
