@@ -121,7 +121,11 @@ footer .col-footer .chevron *{
 }
 
 #video, #mic{
-    margin-right: 0;
+    padding-right: 0;
+}
+
+.col-1 .chevron{
+    padding-left: 0;
 }
 
 #share-screen{
