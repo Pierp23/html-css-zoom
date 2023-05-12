@@ -9,3 +9,63 @@
 *{
     font-family: 'Open Sans', sans-serif;
 }
+
+/* MAIN */
+.background-main{
+    background-color: black;
+    width: 100%;
+    height: calc(100vh - 80px);
+}
+
+.main-top{
+    text-align: right;
+    padding-bottom: 20px;
+}
+
+.main-top .icons-top{
+    padding: 5px;
+}
+
+.main-top .icons-top > *{
+    margin-left: 5px;
+}
+
+
+.main-top .icons-top *{
+    color: white;
+    background-color: #4A4A4A;
+    padding: 2px;
+    border-radius: 6px;
+}
+
+.main-core{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.my-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col{
+    width: calc((100% / 7) - 4px);
+    border: 1px solid white;
+    position: relative;
+    margin: 2px;
+}
+
+.col img{
+    width: 100%;
+    display: block;
+}
+
+.col .user{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 5px;
+    position:absolute;
+    bottom: 0;
+    left: 0; 
+}
