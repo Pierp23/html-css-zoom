@@ -19,23 +19,24 @@
 
 .main-top{
     text-align: right;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 }
 
 .main-top .icons-top{
     padding: 5px;
 }
 
-.main-top .icons-top > *{
+/* .main-top .icons-top > *{
     margin-left: 5px;
-}
+} */
 
 
-.main-top .icons-top *{
+.main-top .icons-top button{
     color: white;
     background-color: #4A4A4A;
-    padding: 2px;
-    border-radius: 6px;
+    padding: 4px;
+    border-radius: 4px;
+    border: none;
 }
 
 .main-core{
@@ -82,35 +83,13 @@ footer .my-row{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-
-footer .col-footer{
-    display: flex;
     align-items: center;
-}
-
-
-footer .col-footer div{
-    text-align: center;
-    padding: 0 10px;
-}
-
-footer .col-footer i{
-    font-size: 20px;
-}
-
-footer .col-footer .chevron *{
-    font-size: 10px;
-}
-
-.my-rows .col-1{
-    width: 15%;
+    height: 100%;
 
 }
 
 .my-rows .col-2{
-    width: 70%;
-    justify-content: space-between;
+    text-align: center;
 }
 
 .col-3{
@@ -118,6 +97,14 @@ footer .col-footer .chevron *{
     font-weight: bold;
     background-color: #4A4A4A;
     padding: 20px;
+}
+
+footer .col-footer button{
+    text-align: center;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    color: white;
 }
 
 #video, #mic{
